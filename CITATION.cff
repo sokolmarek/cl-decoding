@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Cognitive load decoding from causal spatiotemporal patterns"
+authors:
+  - family-names: Sokol
+    given-names: Marek
+    affiliation: "Faculty of Biomedical Engineering, Czech Technical University in Prague"
+license: MIT
+repository-code: "https://github.com/sokolmarek/cl-decoding"
+preferred-citation:
+  type: article
+  title: "Efficient cognitive load decoding using causal spatiotemporal patterns from multimodal physiological signals"
+  authors:
+    - family-names: Sokol
+      given-names: Marek
+    - family-names: Hejda
+      given-names: Jan
+    - family-names: Volf
+      given-names: Petr
+    - family-names: Leová
+      given-names: Lýdie
+    - family-names: Kutílek
+      given-names: Patrik
+  journal: "Computers in Biology and Medicine"
+  volume: 197
+  start: 111063
+  year: 2025
+  doi: "10.1016/j.compbiomed.2025.111063"

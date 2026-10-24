@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cldecoding"
+version = "1.0.0"
+description = "Cognitive load decoding from causal spatiotemporal patterns of ECG and EDA"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Marek Sokol", email = "marek.sokol@cvut.cz" }]
+requires-python = ">=3.9,<3.12"
+dependencies = [
+    "numpy>=1.22,<2",
+    "scipy>=1.9",
+    "pandas>=1.5",
+    "scikit-learn>=1.2",
+    "numba>=0.56",
+    "pyts>=0.12",
+    "neurokit2>=0.2.4",
+    "tensorflow>=2.10,<2.16",
+    "xgboost>=1.7",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
